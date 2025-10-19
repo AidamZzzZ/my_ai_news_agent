@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Last Commit](https://img.shields.io/github/last-commit/<YOUR_GITHUB_USER>/<YOUR_REPO>)
+![Last Commit](https://img.shields.io/github/last-commit/AidamZzzZ/my_ai_news_agent)
 
 ---
 
