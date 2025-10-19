@@ -4,7 +4,7 @@ from google import genai
 
 load_dotenv()
 
-def sumamarizer_text(text):
+def summarizer_text(text):
     """
     El modelo de iA gemini-2.5-flash genera un resumen del articulo
     """
@@ -14,5 +14,3 @@ def sumamarizer_text(text):
         model="gemini-2.5-flash", contents=f"Resume el siguiente articulo de noticias que lo relate de manera consica: {text}"
     )
     return response.text
-
-print(sumamarizer_text("Almost exactly six years after it launched, Apple TV is at an inflection point. In the span of a week, the streaming service rebranded itself, struck its first standalone bundle deal with a competito"))
