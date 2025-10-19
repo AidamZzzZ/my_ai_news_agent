@@ -12,6 +12,9 @@ EMAIL_SENDER=os.getenv('EMAIL_SENDER')
 PASSWORD_EMAIL=os.getenv('PASSWORD_EMAIL')
 
 def send_email(receiver, file):
+    """
+    envia un correo con un archivo .PDF adjunto con las ultimas 10 noticias de tecnologia.
+    """
     subject = "Ultimas 10 noticias de tecnologia."
     message = "Este correo esta enviado con python y tiene un archivo .PDF adjunto."
 

@@ -4,6 +4,9 @@ def remove_non_latin1(text):
     return text.encode('latin-1', 'ignore').decode('latin-1')
 
 def create_pdf(summarizer_news, file_name="./output/noticias_tecnologia.pdf"):
+    """
+    crea un archivo .PDF con las noticias de tecnologia.
+    """
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font('Arial', 'B', size=16)
